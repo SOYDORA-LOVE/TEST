@@ -9,7 +9,7 @@ if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 
 def login():
-    st.title("🔐 로그인")
+    st.title("🔐 로그")
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
